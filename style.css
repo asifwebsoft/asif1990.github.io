@@ -1,0 +1,32 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding-top: 80px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skill-box {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+footer i {
+  transition: transform 0.3s;
+}
+
+footer i:hover {
+  transform: scale(1.2);
+}
